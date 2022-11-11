@@ -259,7 +259,7 @@ const create = (win, options) => {
 			dictionarySuggestions.push(
 				{
 					id: 'dictionarySuggestions',
-					label: 'No Guesses Found',
+					label: 'Nenhuma sugestão foi encontrada',
 					visible: Boolean(hasText && props.misspelledWord),
 					enabled: false
 				}
