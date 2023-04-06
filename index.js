@@ -122,6 +122,7 @@ const create = (win, options) => {
 			selectAll: decorateMenuItem({
 				id: 'selectAll',
 				label: 'Select &All',
+				visible: props.isEditable,
 				click() {
 					webContents(win).selectAll();
 				}
